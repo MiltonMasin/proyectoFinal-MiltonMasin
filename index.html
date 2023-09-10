@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Productos Barberia</title>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Productos</h1>
+
+        <div class="busqueda">
+            <input type="text" id="busqueda-input" placeholder="Buscar productos...">
+            <button id="buscar-btn">Buscar</button>
+        </div>
+        
+    </header>
+
+    <section class="contenedor">
+        <!--Contenedor de elementos-->
+        <div class="contenedor-items">
+            <div class="item">
+                <p class="titulo-item">Pomada brillante</p>
+                <img src="img/crema-bri.jpg" alt="" class="img-item">
+                <p class="precio-item">$3000</p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <p class="titulo-item">Shampoo para Barba</p>
+                <img src="img/barba1.webp" alt="" class="img-item">
+                <p class="precio-item">4500</p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <p class="titulo-item">Fortalecedor</p>
+                <img src="img/barba2.webp" alt="" class="img-item">
+                <p class="precio-item">2400</p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <p class="titulo-item">After Shave</p>
+                <img src="img/afeitado1.webp" alt="" class="img-item">
+                <p class="precio-item">3100</p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <p class="titulo-item">Crema para Barbear</p>
+                <img src="img/afeitado2.webp" alt="" class="img-item">
+                <p class="precio-item">4000</p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <p class="titulo-item">Shave Oil PURE</p>
+                <img src="img/afeitado3.webp" alt="" class="img-item">
+                <p class="precio-item">3200</p>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+
+        <!--Carrito de Compras-->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+             
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+   
+</body>
+</html>

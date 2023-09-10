@@ -1,0 +1,33 @@
+[
+    {
+      "nombre": "Pomada brillante",
+      "precio": 3000,
+      "imagen": "img/crema-bri.jpg"
+    },
+    {
+      "nombre": "Shampoo para Barba",
+      "precio": 4500,
+      "imagen": "img/barba1.webp"
+    },
+    {
+      "nombre": "Fortalecedor",
+      "precio": 2400,
+      "imagen": "img/barba2.webp"
+    },
+    {
+        "nombre": "After Shave",
+        "precio": 3100,
+        "imagen": "img/afeitado1.webp"
+    },
+    {
+        "nombre": ">Crema para Barbear",
+        "precio": 4000,
+        "imagen": "img/afeitado2.webp"
+    },
+    {
+        "nombre": ">Shave Oil PURE",
+        "precio": 3200,
+        "imagen": "img/afeitado3.webp"
+    }
+  ]
+  
